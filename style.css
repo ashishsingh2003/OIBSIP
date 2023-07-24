@@ -1,0 +1,48 @@
+*{
+    margin:0;
+}
+h1{
+    text-align:center;
+    margin-top:15%;
+    color:bisque;
+}
+body{
+   
+    position: relative;
+}
+.a input,.b input{
+   height: 40px;
+   width: 150px;
+   border-radius: 9px;
+   border: solid 1px black;
+   margin:40px;
+}
+.temp{
+    height:400px;
+    width:600px;
+    margin-top:10%;
+    background-color: darkslategrey;
+    border-radius: 12px;
+}
+body{
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+@media  (max-width:400px){
+    .temp{
+        left:auto;
+        
+        height: 150px;
+        width:100px;
+        
+    }
+}
